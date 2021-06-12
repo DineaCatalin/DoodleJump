@@ -18,8 +18,7 @@ public class Platform : MonoBehaviour
     public void Hide()
     {
         // Add to pull later
-        // For now just destroy
-        Debug.Log("AAA");
+        // For now just deactivate
         gameObject.SetActive(false);
     }
 }
