@@ -2,5 +2,5 @@
 
 public abstract class IPlatformInteraction : ScriptableObject
 {
-    public abstract void OnLanded(Player player);
+    public abstract void OnLanded(Player player, Platform platform);
 }

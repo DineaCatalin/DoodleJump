@@ -8,10 +8,18 @@ public class Platform : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag.Equals(PLAYER_TAG) && collision.relativeVelocity.y <= 0f)
+        if (collision.gameObject.tag.Equals(PLAYER_TAG) && collision.relativeVelocity.y <= 0f)
         {
             var player = collision.gameObject.GetComponent<Player>();
-            _interaction.OnLanded(player);
+            _interaction.OnLanded(player, this);
         }
+    }
+
+    public void Hide()
+    {
+        // Add to pull later
+        // For now just destroy
+        Debug.Log("AAA");
+        gameObject.SetActive(false);
     }
 }
