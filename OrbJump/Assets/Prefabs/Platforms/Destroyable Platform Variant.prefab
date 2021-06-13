@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 2e704193c866b774f90df729b2ea8c7a,
         type: 2}
+    - target: {fileID: 2552561640635071557, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_Name
+      value: Destroyable Platform Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 2736599160481237409, guid: 6926dad4cf5c59b4589b0b786c81d673,
         type: 3}
       propertyPath: m_RootOrder
@@ -68,6 +73,52 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4267552853958209417, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_Points.Array.data[0].x
+      value: -0.7714515
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267552853958209417, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_Points.Array.data[0].y
+      value: -0.03754145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267552853958209417, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_Points.Array.data[1].x
+      value: 0.76738894
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267552853958209417, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_Points.Array.data[1].y
+      value: -0.03754145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408509050479274222, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8287873616420496286, guid: 3e013706b0e5bab42b459834c0c25c4a,
+        type: 3}
+    - target: {fileID: 4408509050479274222, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408509050479274223, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408509050479274223, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408509050479274223, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5883136814672130989, guid: 6926dad4cf5c59b4589b0b786c81d673,
         type: 3}
       propertyPath: m_Name
@@ -78,5 +129,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9098996702021925711, guid: 6926dad4cf5c59b4589b0b786c81d673,
+        type: 3}
+      propertyPath: _interaction
+      value: 
+      objectReference: {fileID: 11400000, guid: 2e704193c866b774f90df729b2ea8c7a,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6926dad4cf5c59b4589b0b786c81d673, type: 3}
