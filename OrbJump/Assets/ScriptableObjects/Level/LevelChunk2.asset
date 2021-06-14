@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fe0ef68c72d93441b508bd4f113af2f, type: 3}
+  m_Name: LevelChunk2
+  m_EditorClassIdentifier: 
+  Data:
+  - Type: {fileID: 11400000, guid: 67199085b8cbae0469ad8391714cc28e, type: 2}
+    Positions:
+    - {x: 0, y: 0}
+    - {x: -2.22, y: 2.63}
+    - {x: 2.17, y: 4.77}
+    - {x: -0.2, y: 7.53}
+    - {x: -2.29, y: 9.59}
+    - {x: -2.29, y: 11.45}
+    - {x: 2.66, y: 10.63}
+    - {x: 2.66, y: 13.16}
+    - {x: 2.66, y: 13.16}
+    - {x: 2.66, y: 16.85}
+    - {x: -2.2, y: 16.85}
+  - Type: {fileID: 11400000, guid: 5d4fb8aaced60cf48ae272f05066d332, type: 2}
+    Positions:
+    - {x: 0.02529025, y: 14.91}
+  - Type: {fileID: 11400000, guid: 94d4def9271b6db4983251dd888b5660, type: 2}
+    Positions:
+    - {x: -2.3086991, y: 11.78}
+  ChunkMiddleYPosition: 7.815
+  ChunkTopYPosition: 16.85
+  ChunkBottomYPosition: -1.22

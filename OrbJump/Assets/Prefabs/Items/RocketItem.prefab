@@ -4690,11 +4690,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1059748743005127658}
+  - component: {fileID: 1059748743005060132}
   - component: {fileID: 1059748742985795716}
   - component: {fileID: 1059748742985133456}
   - component: {fileID: 1059748742994769538}
   - component: {fileID: 1059748743005060135}
-  - component: {fileID: 1059748743005060132}
+  - component: {fileID: 1137250118418120117}
   m_Layer: 0
   m_Name: RocketItem
   m_TagString: Untagged
@@ -4718,6 +4719,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1059748743005060132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059748743004933088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54fa5959c32110542a99ac6d510e421f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _item: {fileID: 11400000, guid: c35842d22e660b64685ed8b92cfae737, type: 2}
 --- !u!198 &1059748742985795716
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -9463,7 +9477,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.37994462, y: 0.42593545}
   m_EdgeRadius: 0
---- !u!114 &1059748743005060132
+--- !u!114 &1137250118418120117
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9472,10 +9486,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1059748743004933088}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54fa5959c32110542a99ac6d510e421f, type: 3}
+  m_Script: {fileID: 11500000, guid: 70b8b8abe7e2fec42ad1c93c083d5de7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 11400000, guid: c35842d22e660b64685ed8b92cfae737, type: 2}
+  Type: {fileID: 11400000, guid: 9957c3ff35fc0cb4f9e8dbc606a0f109, type: 2}
 --- !u!1 &1059748743004959432
 GameObject:
   m_ObjectHideFlags: 0

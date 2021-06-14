@@ -16,7 +16,7 @@ public class PlayerRocket : MonoBehaviour
         _player.TransitionGraphics.Play();
 
         _player.ActiveGraphics.SetActive(false);
-        _player.Collider.enabled = false;
+        //_player.Collider.enabled = false;
         _player.RocketGraphics.SetActive(true);
 
         Invoke("Deactivate", _rocketData.duration);
@@ -27,7 +27,7 @@ public class PlayerRocket : MonoBehaviour
         _player.TransitionGraphics.Play();
 
         _player.ActiveGraphics.SetActive(true);
-        _player.Collider.enabled = true;
+        //_player.Collider.enabled = true;
         _player.RocketGraphics.SetActive(false);
 
         _player.Rigidbody.velocity = Vector2.zero;

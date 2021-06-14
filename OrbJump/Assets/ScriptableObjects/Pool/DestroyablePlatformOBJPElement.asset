@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea46adb48c8e9fe40bfb52464d40cc74, type: 3}
+  m_Name: DestroyablePlatformOBJPElement
+  m_EditorClassIdentifier: 
+  Type: {fileID: 11400000, guid: 38b86cf84b2eba2408b3930c948762d7, type: 2}
+  Amount: 15
+  Prefab: {fileID: 3216623940460204333, guid: e702f8efddc149a49a8f509958950bd4, type: 3}
