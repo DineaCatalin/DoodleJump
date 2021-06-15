@@ -9,5 +9,6 @@ public class JumpPlatform : IPlatformInteraction
     {
         player.Jump(jumpForce);
         player.LandlingParticles.Play();
+        RaiseInteractionEvent();
     }
 }

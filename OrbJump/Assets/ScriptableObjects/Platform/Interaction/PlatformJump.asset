@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09632435c139f7941baf12d0506b2265, type: 3}
   m_Name: PlatformJump
   m_EditorClassIdentifier: 
+  _onInteractionEvent: {fileID: 11400000, guid: 3bb2005e862943c42be8fb95d0b69926,
+    type: 2}
   jumpForce: 10

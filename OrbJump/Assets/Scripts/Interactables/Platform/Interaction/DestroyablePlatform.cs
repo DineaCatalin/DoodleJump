@@ -7,5 +7,6 @@ public class DestroyablePlatform : IPlatformInteraction
     {
         platform.Hide();
         player.LandlingParticles.Play();
+        RaiseInteractionEvent();
     }
 }

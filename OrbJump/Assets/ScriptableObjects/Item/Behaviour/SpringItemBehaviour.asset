@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc4d55385d1a1f940aab5091ff7b06a5, type: 3}
   m_Name: SpringItemBehaviour
   m_EditorClassIdentifier: 
+  _onInteractionEvent: {fileID: 11400000, guid: 3bb2005e862943c42be8fb95d0b69926,
+    type: 2}
   HideOnInteraction: 0
   JumpPower: 15

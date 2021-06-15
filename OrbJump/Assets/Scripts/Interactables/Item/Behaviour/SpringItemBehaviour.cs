@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(menuName = "Item/Behaviour/Spring")]
 public class SpringItemBehaviour : IItemBehaviour
@@ -11,5 +9,6 @@ public class SpringItemBehaviour : IItemBehaviour
     {
         player.Jump(JumpPower);
         item.PlayInteractionParticles();
+        RaiseInteractionEvent();
     }
 }

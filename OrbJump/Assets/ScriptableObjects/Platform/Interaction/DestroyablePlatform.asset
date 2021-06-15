@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55cb1a4d68240e44d99af78807a175a8, type: 3}
   m_Name: DestroyablePlatform
   m_EditorClassIdentifier: 
+  _onInteractionEvent: {fileID: 11400000, guid: 3bb2005e862943c42be8fb95d0b69926,
+    type: 2}
