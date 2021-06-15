@@ -27,11 +27,25 @@ public class ObjectPool : MonoBehaviour
         }
     }
 
+    public void HideAllObjects()
+    {
+        foreach (var itemType in _storage)
+        {
+            var active = itemType.Value.Where(item => item.activeSelf);
+            if (active != null)
+            {
+                foreach (var obj in active)
+                {
+                    obj.SetActive(false);
+                }
+            }
+        }
+    }
+
     public GameObject GetObject(InteractableType objType)
     {
         var list = _storage[objType];
 
-        //TODO: maybe optimize this
         var inactiveObject = list.FirstOrDefault(obj => !obj.activeSelf);
 
         if(inactiveObject == null)

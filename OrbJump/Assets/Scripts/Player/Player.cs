@@ -21,6 +21,9 @@ public class Player : MonoBehaviour
     [SerializeField] private IPlayerJump     _jump;
     [SerializeField] private IPlayerDash     _dash;
     [SerializeField] private IPlayerDeath    _death;
+    [SerializeField] private IPlayerReset    _reset;
+
+    private void Start()                 => ResetPlayer();
 
     private void FixedUpdate()           => Move();
 
@@ -35,4 +38,6 @@ public class Player : MonoBehaviour
     public float GetHorizontalMovement() => _inputService.GetDirection();
 
     public void Die()                    => _death.Die(this);
+
+    public void ResetPlayer()            => _reset.Reset(this);
 }

@@ -4,12 +4,19 @@ public class CameraFollow : MonoBehaviour
 {
 	public Transform _target;
 
-	void LateUpdate()
+	private void LateUpdate()
 	{
 		if (_target.position.y > transform.position.y)
 		{
-			Vector3 newPos = new Vector3(transform.position.x, _target.position.y, transform.position.z);
-			transform.position = newPos;
+			SetPosition();
 		}
+	}
+
+	public void Reset() => SetPosition();
+
+	private void SetPosition()
+    {
+		Vector3 newPos = new Vector3(transform.position.x, _target.position.y, transform.position.z);
+		transform.position = newPos;
 	}
 }

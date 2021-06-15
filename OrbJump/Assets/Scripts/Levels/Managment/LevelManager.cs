@@ -4,22 +4,34 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] private ObjectPool           _pool;
+    [SerializeField] private LevelChunkData       _startChunk;
     [SerializeField] private List<LevelChunkData> _levelChunks;
     [SerializeField] private Transform            _showNewChunkTrigger;
     [SerializeField] private float                _offsetBetweenLevelChunks;
 
     private float _originY;
 
-    private void Start()
-    {
-        _showNewChunkTrigger.position = Vector2.zero;
-        ShowLevelChunk(_levelChunks[0]);
-    }
+    private void Start() => ShowInitialChunk();
 
     public void ShowNextChunk()
     {
         var nextChunkIndex = Random.Range(0, _levelChunks.Count);
         ShowLevelChunk(_levelChunks[nextChunkIndex]);
+    }
+
+    public void ResetLevel()
+    {
+        Debug.Log("LevelManager ResetLevel");
+        _pool.HideAllObjects();
+        ShowInitialChunk();
+    }
+
+    private void ShowInitialChunk()
+    {
+        
+        _originY = 0;
+        ShowLevelChunk(_startChunk);
+        _showNewChunkTrigger.position = Vector2.zero;
     }
 
     private void ShowLevelChunk(LevelChunkData levelChunk)
