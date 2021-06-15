@@ -17,8 +17,6 @@ public class Platform : MonoBehaviour
 
     public void Hide()
     {
-        // Add to pull later
-        // For now just deactivate
         gameObject.SetActive(false);
     }
 }

@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b202ef9e6150dae4789eea6329751df0, type: 3}
   m_Name: RocketItemBehaviour
   m_EditorClassIdentifier: 
+  HideOnInteraction: 1

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Type: {fileID: 11400000, guid: 5d4fb8aaced60cf48ae272f05066d332, type: 2}
   Amount: 20
-  Prefab: {fileID: 1075516027311909045, guid: fa345b61bb968024395846f3b7118bc6, type: 3}
+  Prefab: {fileID: 6077409187342429691, guid: 6019c76e02e08a14e8ca3a36fbd11aff, type: 3}

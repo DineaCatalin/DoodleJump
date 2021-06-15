@@ -10,7 +10,6 @@ public class SpawnNewChunkTrigger : MonoBehaviour
     {
         if(collision.tag.Equals(PLAYER_TAG))
         {
-            Debug.Log("AAA SpawnNewChunkTrigger");
             _levelManager.ShowNextChunk();
         }
     }

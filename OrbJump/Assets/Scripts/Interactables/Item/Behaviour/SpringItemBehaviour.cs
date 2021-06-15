@@ -10,5 +10,6 @@ public class SpringItemBehaviour : IItemBehaviour
     public override void OnPickUp(Player player, Item item)
     {
         player.Jump(JumpPower);
+        item.PlayInteractionParticles();
     }
 }

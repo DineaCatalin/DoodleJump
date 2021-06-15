@@ -19,13 +19,13 @@ public class LevelGeneratorWindow : EditorWindow
 
     private void SaveLevelChunk()
     {
-        Debug.Log("SaveLevelChunk");
         var levelGeneratorGO = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
 
         if(levelGeneratorGO != null)
         {
             var levelGenerator = levelGeneratorGO.GetComponent<LevelGenerator>();
             levelGenerator.SaveChunkData();
+            Debug.Log("Saving Level Chunk");
         }
         else
         {

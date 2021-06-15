@@ -5,5 +5,9 @@ public class JumpPlatform : IPlatformInteraction
 {
     public float jumpForce;
 
-    public override void OnLanded(Player player, Platform platform) => player.Jump(jumpForce);
+    public override void OnLanded(Player player, Platform platform)
+    {
+        player.Jump(jumpForce);
+        player.LandlingParticles.Play();
+    }
 }

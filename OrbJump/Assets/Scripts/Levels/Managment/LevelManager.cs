@@ -19,13 +19,11 @@ public class LevelManager : MonoBehaviour
     public void ShowNextChunk()
     {
         var nextChunkIndex = Random.Range(0, _levelChunks.Count);
-        Debug.Log($"ShowNextChunk {nextChunkIndex}");
         ShowLevelChunk(_levelChunks[nextChunkIndex]);
     }
 
     private void ShowLevelChunk(LevelChunkData levelChunk)
     {
-        Debug.Log("ShowLevelChunk");
         _showNewChunkTrigger.position = new Vector2(_showNewChunkTrigger.position.x, 
             levelChunk.ChunkMiddleYPosition + _originY);
 

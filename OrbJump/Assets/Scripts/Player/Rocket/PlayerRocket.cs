@@ -13,7 +13,7 @@ public class PlayerRocket : MonoBehaviour
     {
         this.enabled = true;
 
-        _player.TransitionGraphics.Play();
+        _player.TransitionParticles.Play();
 
         _player.ActiveGraphics.SetActive(false);
         //_player.Collider.enabled = false;
@@ -24,7 +24,7 @@ public class PlayerRocket : MonoBehaviour
 
     private void Deactivate()
     {
-        _player.TransitionGraphics.Play();
+        _player.TransitionParticles.Play();
 
         _player.ActiveGraphics.SetActive(true);
         //_player.Collider.enabled = true;

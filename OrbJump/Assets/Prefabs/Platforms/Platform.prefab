@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8283802765985911367}
   m_Layer: 0
   m_Name: Platform
-  m_TagString: Untagged
+  m_TagString: Destroyable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2552561640635071557}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4408509050479274223}
   m_Father: {fileID: 0}
@@ -64,8 +64,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.7538156, y: 0.13}
-  - {x: 0.7629799, y: 0.13}
+  - {x: -0.3918577, y: 0.027722307}
+  - {x: 0.40223446, y: 0.026255965}
 --- !u!251 &5864296677102336701
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -122,13 +122,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4408509050479274216}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.084895246, w: 0.9963899}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children: []
   m_Father: {fileID: 6283584593971152457}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -9.74}
 --- !u!212 &4408509050479274222
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -168,12 +168,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6323505521811645041, guid: 43ee12fb6ae171b418f331ffc9108603,
+  m_Sprite: {fileID: 8537531731111758989, guid: 532d89cce32ef33469a10c43c44556ea,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 2
+  m_DrawMode: 0
   m_Size: {x: 1.5581889, y: 0.26742417}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
