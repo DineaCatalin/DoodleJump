@@ -39,5 +39,10 @@ public class Player : MonoBehaviour
 
     public void Die()                    => _death.Die(this);
 
-    public void ResetPlayer()            => _reset.Reset(this);
+    //public void ResetPlayer()            => _reset.Reset(this);
+    public void ResetPlayer()
+    {
+        Debug.Log("Player reset");
+        _reset.Reset(this);
+    }
 }

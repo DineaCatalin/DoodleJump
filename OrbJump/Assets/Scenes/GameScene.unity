@@ -300,6 +300,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 2113009471}
+--- !u!1 &786594803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6032162203153652914, guid: df81581d15869d24a9e94ad5ac235998,
+    type: 3}
+  m_PrefabInstance: {fileID: 6821028740996197588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &786594804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786594803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed423c20b7ff5f04cb3a45fa4e43f909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: c753974b1f59b304280e6d744b05f80b, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 786594806}
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &786594805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786594803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed423c20b7ff5f04cb3a45fa4e43f909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: fff0db7db7e2c9d4ca2fdc3376dcbbe4, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 786594806}
+        m_MethodName: SaveHighScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &786594806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786594803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c67b5d9693ded54993b54ec4e7f0f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _score: {fileID: 11400000, guid: 9e1aa5b57b0e2b24baf1cc3d734b87b5, type: 2}
+  _scoreMultiplier: 10
 --- !u!4 &1811054552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6871130189019198111, guid: f5857d7170ad5754487e14b368eac96c,
@@ -757,7 +831,7 @@ PrefabInstance:
     - target: {fileID: 6032162203153652914, guid: df81581d15869d24a9e94ad5ac235998,
         type: 3}
       propertyPath: m_Name
-      value: GameFlow
+      value: Gameplay
       objectReference: {fileID: 0}
     - target: {fileID: 7579841324536428163, guid: df81581d15869d24a9e94ad5ac235998,
         type: 3}
