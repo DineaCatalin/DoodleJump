@@ -24,7 +24,6 @@ public class GameEndUI : GameScreenFade
     public void TriggerRetryEvent() => _retryEvent?.Raise();
     public override void DoAnimation()
     {
-        Debug.Log("GameEndUI DoAnimation");
         ConfigureScore();
         FadeIn();
         Invoke("ActivateButtons", _currentDelay / 2);
@@ -46,14 +45,17 @@ public class GameEndUI : GameScreenFade
         if(_score.NewHighScore)
         {
             _descriptionText.text = _highScoreText;
+
+            _currentScoreValueText.text = Mathf.Round(_score.CurrentScore).ToString();
+            _highScoreValueText.text = Mathf.Round(_score.PreviousHighscore).ToString();
         }
         else
         {
             _descriptionText.text = _noHighScoreText;
-        }
 
-        _currentScoreValueText.text = Mathf.Round(_score.CurrentScore).ToString();
-        _highScoreValueText.text     = Mathf.Round(_score.HighScore).ToString();
+            _currentScoreValueText.text = Mathf.Round(_score.CurrentScore).ToString();
+            _highScoreValueText.text = Mathf.Round(_score.HighScore).ToString();
+        }
     }
 
     private void SetButtonsActive(bool active) => _buttons.ForEach(button => button.gameObject.SetActive(active));

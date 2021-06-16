@@ -6,7 +6,6 @@ public class GameStartUI : GameScreenFade
     [SerializeField] private GameEvent _onAnimationEndEvent;
     public override void DoAnimation()
     {
-        Debug.Log("GameStartUI DoAnimation");
         FadeIn();
         FadeOutBackground();
         FadeOutText();

@@ -10,9 +10,7 @@ public class EnemyCollisionEffectRandomPush : IEnemyCollisionEffect
     {
         enemy.Hide();
         var randomForce = new Vector2(Random.Range(-1f, 1f), _downForce);
-        Debug.Log($"randomForce before mul {randomForce}");
         randomForce *= Force;
         player.Dash(randomForce);
-        Debug.Log($"Player Dashing with {randomForce}");
     }
 }

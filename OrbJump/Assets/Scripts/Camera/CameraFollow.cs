@@ -15,7 +15,6 @@ public class CameraFollow : MonoBehaviour
 	public void Reset()
 	{
 		SetPosition();
-		Debug.Log("CameraFollow Reset");
 	}
 
 	private void SetPosition()

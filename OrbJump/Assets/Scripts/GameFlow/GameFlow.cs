@@ -9,16 +9,6 @@ public class GameFlow : MonoBehaviour
 
     public void StartGame()
     {
-        Debug.Log("GameFlow StartGame");
         _startGameEvent.Raise();
-    }
-
-    //Test  
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            StartGame();
-        }
     }
 }

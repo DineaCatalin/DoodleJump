@@ -10,27 +10,20 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private float                _offsetBetweenLevelChunks;
 
     private float _originY;
-
-    //private void Start() => ShowInitialChunk();
-
     public void ShowNextChunk()
     {
-        Debug.Log("LevelManager ShowNextChunk");
-
         var nextChunkIndex = Random.Range(0, _levelChunks.Count);
         ShowLevelChunk(_levelChunks[nextChunkIndex]);
     }
 
     public void ResetLevel()
     {
-        Debug.Log("LevelManager ResetLevel");
         _pool.HideAllObjects();
         ShowInitialChunk();
     }
 
     private void ShowInitialChunk()
     {
-        Debug.Log("LevelManager ShowInitialChunk");
         _originY = 0;
         ShowLevelChunk(_startChunk);
         _showNewChunkTrigger.position = Vector2.zero;
