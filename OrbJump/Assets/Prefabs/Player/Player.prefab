@@ -129,7 +129,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3235548913554657093}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -161,7 +161,7 @@ MonoBehaviour:
   _rocket: {fileID: 1588474476}
   _rigidbody: {fileID: 916099337}
   _collider: {fileID: 916099336}
-  _inputService: {fileID: 11400000, guid: 54b8e8dfabfcc7249b69b9b4d3744ec6, type: 2}
+  _inputService: {fileID: 11400000, guid: f6b158ed1abcdc74790f2ef447853aad, type: 2}
   _movement: {fileID: 11400000, guid: b270d4e93b738284fa6723548052a244, type: 2}
   _jump: {fileID: 11400000, guid: 8c84acf8f5af3a24380a5acefe604b57, type: 2}
   _dash: {fileID: 11400000, guid: 821e0a60b51f455459ab2d38bd641be5, type: 2}
@@ -371,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4026632541570915424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5184434743610534502}

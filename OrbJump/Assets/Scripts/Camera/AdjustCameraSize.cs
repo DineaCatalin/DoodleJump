@@ -8,7 +8,7 @@ public class AdjustCameraSize : MonoBehaviour
 
     // Adjust the camera's height so the desired scene width fits in view
     // even if the screen/window size changes dynamically.
-    void Start()
+    void Awake()
     {
         float unitsPerPixel = sceneWidth / Screen.width;
 

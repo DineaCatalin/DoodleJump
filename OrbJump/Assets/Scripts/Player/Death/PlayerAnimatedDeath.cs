@@ -5,7 +5,8 @@ public class PlayerAnimatedDeath : IPlayerDeath
 {
     public override void Die(Player player) 
     {
-        player.Rigidbody.simulated = false;
         player.DeathParticles.Play();
+        player.Rigidbody.simulated = false;
+        player.ActiveGraphics.SetActive(false);
     } 
 }

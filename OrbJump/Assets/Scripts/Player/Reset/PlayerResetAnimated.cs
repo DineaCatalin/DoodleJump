@@ -10,6 +10,7 @@ public class PlayerResetAnimated : IPlayerReset
         player.transform.position = resetPosition;
         player.Rigidbody.simulated = true;
         player.gameObject.SetActive(true);
+        player.ActiveGraphics.SetActive(true);
         player.TransitionParticles.Play();
     }
 }

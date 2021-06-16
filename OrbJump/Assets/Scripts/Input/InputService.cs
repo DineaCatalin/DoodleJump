@@ -7,10 +7,11 @@ public class InputService : IInputService
 
     public override float GetDirection()
     {
-#if UNITY_IPHONE || UNITY_ANDROID
+/*#if UNITY_IPHONE || UNITY_ANDROID || UNITY_DEVICE
+                return GetDirectionFromTouch();
+#endif*/
+        //return GetDirectionFromAxis();
         return GetDirectionFromTouch();
-#endif
-        return GetDirectionFromAxis();
     }
 
     private float GetDirectionFromAxis()
@@ -24,7 +25,7 @@ public class InputService : IInputService
         Debug.Log("GetDirectionFromTouch");
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
-            var touchDeltaPosition = Input.GetTouch(0).deltaPosition;
+            var touchDeltaPosition = Vector3.Normalize(Input.GetTouch(0).deltaPosition);
             Debug.Log($"GetDirectionFromTouch touchDeltaPosition {touchDeltaPosition}");
             return touchDeltaPosition.x;
         }
