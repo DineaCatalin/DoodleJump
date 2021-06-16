@@ -7,6 +7,7 @@ public class Score : ScriptableObject
 
     public float CurrentScore;
     public float HighScore;
+    public float PreviousHighscore;
     public bool  NewHighScore;
 
     public void LoadHighScore() => HighScore = PlayerPrefs.GetFloat(HIGH_SCORE_KEY, HighScore);
@@ -21,6 +22,7 @@ public class Score : ScriptableObject
     public void SaveScore()
     {
         NewHighScore = false;
+        PreviousHighscore = HighScore;
         if (HighScore < CurrentScore)
         {
             HighScore    = CurrentScore;
