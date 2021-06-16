@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b8913959dcdcb24e9746cc0bc15e9a2, type: 3}
   m_Name: EnemyStreightMovement
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  movementSpeed: 2

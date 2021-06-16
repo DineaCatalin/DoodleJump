@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef61cdc54caa69648a103e9d89807cc9, type: 3}
   m_Name: InputService
   m_EditorClassIdentifier: 
+  TouchDamp: 0.15

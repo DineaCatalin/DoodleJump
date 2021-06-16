@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 
 [CreateAssetMenu(menuName = "Player/Death")]
 public class PlayerAnimatedDeath : IPlayerDeath
@@ -8,5 +9,10 @@ public class PlayerAnimatedDeath : IPlayerDeath
         player.DeathParticles.Play();
         player.Rigidbody.simulated = false;
         player.ActiveGraphics.SetActive(false);
+
+        DOVirtual.DelayedCall(2f, () =>
+        {
+            player.transform.position = Vector2.zero;
+        });
     } 
 }

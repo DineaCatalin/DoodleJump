@@ -22,9 +22,6 @@ public class Player : MonoBehaviour
     [SerializeField] private IPlayerDash     _dash;
     [SerializeField] private IPlayerDeath    _death;
     [SerializeField] private IPlayerReset    _reset;
-
-    //private void Start()                 => ResetPlayer();  
-
     private void FixedUpdate()           => Move();
 
     public void Jump(float jumpPower)    => _jump.Jump(this, jumpPower);

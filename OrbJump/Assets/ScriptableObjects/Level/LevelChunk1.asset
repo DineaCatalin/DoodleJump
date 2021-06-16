@@ -30,6 +30,7 @@ MonoBehaviour:
     - {x: 0.64, y: 11.99}
     - {x: 3.35, y: 13.37}
     - {x: -0.02, y: 16.12}
+    - {x: -0.02, y: -3}
   - Type: {fileID: 11400000, guid: 94d4def9271b6db4983251dd888b5660, type: 2}
     Positions:
     - {x: 0.21, y: 2.02}

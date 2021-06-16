@@ -5,29 +5,34 @@ public class InputService : IInputService
 {
     private const string HORIZONTAL_AXIS = "Horizontal";
 
+    [Range(0,0.5f)]
+    public float TouchDamp;
+
+    // Best practice would be to split this in 2 different IInputServices and 
+    // have another script decide which to use
     public override float GetDirection()
     {
-/*#if UNITY_IPHONE || UNITY_ANDROID || UNITY_DEVICE
-                return GetDirectionFromTouch();
-#endif*/
-        //return GetDirectionFromAxis();
-        return GetDirectionFromTouch();
+        float direction = GetDirectionFromTouch();
+        if(direction == 0)
+        {
+            direction = GetDirectionFromAxis();
+        }
+
+        return direction;
+
     }
 
     private float GetDirectionFromAxis()
     {
-        Debug.Log("GetDirectionFromAxis");
         return Input.GetAxis(HORIZONTAL_AXIS);
     }
     
     private float GetDirectionFromTouch()
     {
-        Debug.Log("GetDirectionFromTouch");
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
             var touchDeltaPosition = Vector3.Normalize(Input.GetTouch(0).deltaPosition);
-            Debug.Log($"GetDirectionFromTouch touchDeltaPosition {touchDeltaPosition}");
-            return touchDeltaPosition.x;
+            return touchDeltaPosition.x - TouchDamp;
         }
         else
         {

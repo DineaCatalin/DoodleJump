@@ -26,9 +26,10 @@ MonoBehaviour:
     - {x: 2.66, y: 13.16}
     - {x: 2.66, y: 16.85}
     - {x: -2.2, y: 16.85}
+    - {x: 1, y: -2}
   - Type: {fileID: 11400000, guid: 5d4fb8aaced60cf48ae272f05066d332, type: 2}
     Positions:
-    - {x: 0.02529025, y: 14.91}
+    - {x: 0, y: 14.91}
   - Type: {fileID: 11400000, guid: 94d4def9271b6db4983251dd888b5660, type: 2}
     Positions:
     - {x: -2.3086991, y: 11.78}

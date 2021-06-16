@@ -1,0 +1,1088 @@
+fileFormatVersion: 2
+guid: 43ee12fb6ae171b418f331ffc9108603
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6323505521811645041
+    second: backgrounds-cropped-depixeled_0
+  - first:
+      213: 6790037781522108954
+    second: backgrounds-cropped-depixeled_1
+  - first:
+      213: 1852096624378159912
+    second: backgrounds-cropped-depixeled_2
+  - first:
+      213: 2882501134972198683
+    second: backgrounds-cropped-depixeled_3
+  - first:
+      213: -6383968959902279807
+    second: backgrounds-cropped-depixeled_4
+  - first:
+      213: -5502872319872720841
+    second: backgrounds-cropped-depixeled_5
+  - first:
+      213: 2389452672655202291
+    second: backgrounds-cropped-depixeled_6
+  - first:
+      213: -9020840862684421684
+    second: backgrounds-cropped-depixeled_7
+  - first:
+      213: -3002361170744645153
+    second: backgrounds-cropped-depixeled_8
+  - first:
+      213: -7597572562409004307
+    second: backgrounds-cropped-depixeled_9
+  - first:
+      213: 2648690598377390871
+    second: backgrounds-cropped-depixeled_10
+  - first:
+      213: -4609698688636984644
+    second: backgrounds-cropped-depixeled_11
+  - first:
+      213: -715490412567704014
+    second: backgrounds-cropped-depixeled_12
+  - first:
+      213: 9010861343177047007
+    second: backgrounds-cropped-depixeled_13
+  - first:
+      213: 636498591337781932
+    second: backgrounds-cropped-depixeled_14
+  - first:
+      213: 5224964775834585980
+    second: backgrounds-cropped-depixeled_15
+  - first:
+      213: -7762181490934548949
+    second: backgrounds-cropped-depixeled_16
+  - first:
+      213: -7860561396431753339
+    second: backgrounds-cropped-depixeled_17
+  - first:
+      213: 5869357939340093858
+    second: backgrounds-cropped-depixeled_18
+  - first:
+      213: 6847295336335295475
+    second: backgrounds-cropped-depixeled_19
+  - first:
+      213: -524766571841270901
+    second: backgrounds-cropped-depixeled_20
+  - first:
+      213: 2853326741495162928
+    second: backgrounds-cropped-depixeled_21
+  - first:
+      213: 2671101270225367212
+    second: backgrounds-cropped-depixeled_22
+  - first:
+      213: 1472052389681730832
+    second: backgrounds-cropped-depixeled_23
+  - first:
+      213: -8757863545950584477
+    second: backgrounds-cropped-depixeled_24
+  - first:
+      213: 2001195470778072566
+    second: backgrounds-cropped-depixeled_25
+  - first:
+      213: -4276382366671113142
+    second: backgrounds-cropped-depixeled_26
+  - first:
+      213: 3658289886186547705
+    second: backgrounds-cropped-depixeled_27
+  - first:
+      213: -9140435824482636288
+    second: backgrounds-cropped-depixeled_28
+  - first:
+      213: -2196871281718728887
+    second: backgrounds-cropped-depixeled_29
+  - first:
+      213: 3342947024085917043
+    second: backgrounds-cropped-depixeled_30
+  - first:
+      213: 3959132330188500691
+    second: backgrounds-cropped-depixeled_31
+  - first:
+      213: 3206553732415510055
+    second: backgrounds-cropped-depixeled_32
+  - first:
+      213: -108401047071639208
+    second: backgrounds-cropped-depixeled_33
+  - first:
+      213: 285651402190789056
+    second: backgrounds-cropped-depixeled_34
+  - first:
+      213: 5803501006079702145
+    second: backgrounds-cropped-depixeled_35
+  - first:
+      213: 6257440641171719279
+    second: backgrounds-cropped-depixeled_36
+  - first:
+      213: 2348733505858024071
+    second: backgrounds-cropped-depixeled_37
+  - first:
+      213: 3421941001080402529
+    second: backgrounds-cropped-depixeled_38
+  - first:
+      213: 5876930243426063528
+    second: backgrounds-cropped-depixeled_39
+  - first:
+      213: -4068052664949562397
+    second: backgrounds-cropped-depixeled_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 65
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 65
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 270
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d12353b356e38a0800000000000000
+      internalID: -6323505521811645041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 270
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a125b1b136f0b3e50800000000000000
+      internalID: 6790037781522108954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 270
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823a2c92118f3b910800000000000000
+      internalID: 1852096624378159912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 270
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f9da69283b00820800000000000000
+      internalID: 2882501134972198683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 270
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18797effd069767a0800000000000000
+      internalID: -6383968959902279807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 159
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73028a1d7ced1a3b0800000000000000
+      internalID: -5502872319872720841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 159
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f79831cb8a092120800000000000000
+      internalID: 2389452672655202291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 159
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1ed54a7098fc280800000000000000
+      internalID: -9020840862684421684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 159
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9e6522c687556d0800000000000000
+      internalID: -3002361170744645153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 159
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de26b561200009690800000000000000
+      internalID: -7597572562409004307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 159
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713833cd01a02c420800000000000000
+      internalID: 2648690598377390871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb26536477f0700c0800000000000000
+      internalID: -4609698688636984644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e44b6b2411216f0800000000000000
+      internalID: -715490412567704014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbfd5866a20d0d70800000000000000
+      internalID: 9010861343177047007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa99b4b81c45d800800000000000000
+      internalID: 636498591337781932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 94
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b8c83d7cdc28840800000000000000
+      internalID: 5224964775834585980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26fbbe4f01374490800000000000000
+      internalID: -7762181490934548949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f69869e0da9e290800000000000000
+      internalID: -7860561396431753339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a92cf9d2f5247150800000000000000
+      internalID: 5869357939340093858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3447274da760f50800000000000000
+      internalID: 6847295336335295475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bc66f4597a7b8f0800000000000000
+      internalID: -524766571841270901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03821f6cd8d099720800000000000000
+      internalID: 2853326741495162928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0b0e20478a11520800000000000000
+      internalID: 2671101270225367212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0159eb169d7cd6410800000000000000
+      internalID: 1472052389681730832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361c5409181d57680800000000000000
+      internalID: -8757863545950584477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdf8d98daca5cb10800000000000000
+      internalID: 2001195470778072566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44f2de05ec37a4c0800000000000000
+      internalID: -4276382366671113142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9ad8fd44bd4c230800000000000000
+      internalID: 3658289886186547705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_28
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e2575bb06a62180800000000000000
+      internalID: -9140435824482636288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947e5e375352381e0800000000000000
+      internalID: -2196871281718728887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_30
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d17915b98846e20800000000000000
+      internalID: 3342947024085917043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de66afb0e9a1f630800000000000000
+      internalID: 3959132330188500691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_32
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72654dd61a7ff7c20800000000000000
+      internalID: 3206553732415510055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859b30072d1ee7ef0800000000000000
+      internalID: -108401047071639208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_34
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c99c25df66d6f300800000000000000
+      internalID: 285651402190789056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184b001ba6d2a8050800000000000000
+      internalID: 5803501006079702145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_36
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64022c1c15e6d650800000000000000
+      internalID: 6257440641171719279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782b9b0fda0689020800000000000000
+      internalID: 2348733505858024071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_38
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162fdb3d53d2d7f20800000000000000
+      internalID: 3421941001080402529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a419294bec0f8150800000000000000
+      internalID: 5876930243426063528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds-cropped-depixeled_40
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3a91a97af5b87c0800000000000000
+      internalID: -4068052664949562397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

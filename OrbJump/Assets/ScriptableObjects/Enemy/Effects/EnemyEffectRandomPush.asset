@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce146fa9b4149704aafda41aab669162, type: 3}
   m_Name: EnemyEffectRandomPush
   m_EditorClassIdentifier: 
-  Force: 20
+  Force: 50

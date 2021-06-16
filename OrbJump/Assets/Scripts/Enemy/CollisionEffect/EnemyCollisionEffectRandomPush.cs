@@ -9,7 +9,8 @@ public class EnemyCollisionEffectRandomPush : IEnemyCollisionEffect
     public override void OnPlayerCollision(Enemy enemy, Player player)
     {
         enemy.Hide();
-        var randomForce = new Vector2(Random.Range(-1f, 1f), _downForce);
+        var direction = (Random.Range(-1f, 1f) > 0) ? 1 : -1;
+        var randomForce = new Vector2(direction * _downForce, _downForce);
         randomForce *= Force;
         player.Dash(randomForce);
     }

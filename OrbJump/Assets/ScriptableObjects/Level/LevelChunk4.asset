@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fe0ef68c72d93441b508bd4f113af2f, type: 3}
+  m_Name: LevelChunk4
+  m_EditorClassIdentifier: 
+  Data:
+  - Type: {fileID: 11400000, guid: 94d4def9271b6db4983251dd888b5660, type: 2}
+    Positions:
+    - {x: 0.041574, y: -3.8581738}
+    - {x: 0.041574, y: 2.9}
+  - Type: {fileID: 11400000, guid: 38b86cf84b2eba2408b3930c948762d7, type: 2}
+    Positions:
+    - {x: -2.58, y: 9.23}
+    - {x: 2.43, y: 9.23}
+  - Type: {fileID: 11400000, guid: 9957c3ff35fc0cb4f9e8dbc606a0f109, type: 2}
+    Positions:
+    - {x: 0.0044202805, y: 11.11}
+  - Type: {fileID: 11400000, guid: 67199085b8cbae0469ad8391714cc28e, type: 2}
+    Positions:
+    - {x: -2.56, y: -2.91}
+    - {x: 2.93, y: -2.91}
+    - {x: 0.04, y: -4.52}
+    - {x: -2.56, y: -0.21}
+    - {x: 2.91, y: -0.21}
+    - {x: 0.1, y: 2.25}
+    - {x: 0.1, y: 7.66}
+    - {x: 0.1, y: 10.6}
+    - {x: -1.74, y: 4.48}
+    - {x: 2.5, y: 4.62}
+    - {x: 0, y: -5}
+  - Type: {fileID: 11400000, guid: 5d4fb8aaced60cf48ae272f05066d332, type: 2}
+    Positions:
+    - {x: 0, y: 5.29}
+  ChunkMiddleYPosition: 3.2949998
+  ChunkTopYPosition: 11.11
+  ChunkBottomYPosition: -4.52

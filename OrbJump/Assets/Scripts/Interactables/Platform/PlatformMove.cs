@@ -8,7 +8,7 @@ public class PlatformMove : MonoBehaviour
 
     private int currentWaypointIndex;
 
-    private void Start()
+    private void OnEnable()
     {
         for (int i = 0; i < relativeWaypoints.Count; i++)
         {
