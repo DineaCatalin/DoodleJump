@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     [SerializeField] private IPlayerDeath    _death;
     [SerializeField] private IPlayerReset    _reset;
 
-    private void Start()                 => ResetPlayer();
+    //private void Start()                 => ResetPlayer();  
 
     private void FixedUpdate()           => Move();
 

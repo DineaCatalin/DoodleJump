@@ -10,4 +10,9 @@ public class GameEventListener : MonoBehaviour
     private void OnDisable()    => Event.UnregisterListener(this);
 
     public void OnEventRaised() => Response.Invoke();
+
+    public string Name()
+    {
+        return this.name;
+    }
 }

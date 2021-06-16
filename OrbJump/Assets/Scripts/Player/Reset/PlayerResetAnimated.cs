@@ -7,7 +7,10 @@ public class PlayerResetAnimated : IPlayerReset
 
     public override void Reset(Player player)
     {
+        Debug.Log("PlayerResetAnimated Reset");
         player.transform.position = resetPosition;
+        player.Rigidbody.simulated = true;
+        player.gameObject.SetActive(true);
         player.TransitionParticles.Play();
     }
 }

@@ -11,10 +11,12 @@ public class LevelManager : MonoBehaviour
 
     private float _originY;
 
-    private void Start() => ShowInitialChunk();
+    //private void Start() => ShowInitialChunk();
 
     public void ShowNextChunk()
     {
+        Debug.Log("LevelManager ShowNextChunk");
+
         var nextChunkIndex = Random.Range(0, _levelChunks.Count);
         ShowLevelChunk(_levelChunks[nextChunkIndex]);
     }
@@ -28,7 +30,7 @@ public class LevelManager : MonoBehaviour
 
     private void ShowInitialChunk()
     {
-        
+        Debug.Log("LevelManager ShowInitialChunk");
         _originY = 0;
         ShowLevelChunk(_startChunk);
         _showNewChunkTrigger.position = Vector2.zero;

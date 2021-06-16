@@ -81,6 +81,7 @@ GameObject:
   - component: {fileID: 916099338}
   - component: {fileID: 1588474476}
   - component: {fileID: 578287875}
+  - component: {fileID: 552089955}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -165,7 +166,7 @@ MonoBehaviour:
   _jump: {fileID: 11400000, guid: 8c84acf8f5af3a24380a5acefe604b57, type: 2}
   _dash: {fileID: 11400000, guid: 821e0a60b51f455459ab2d38bd641be5, type: 2}
   _death: {fileID: 11400000, guid: 7f6426ac644c323448924128262d2691, type: 2}
-  _reset: {fileID: 0}
+  _reset: {fileID: 11400000, guid: 034bcf7dd21bd6a40b391a42c3ad8e27, type: 2}
 --- !u!114 &1588474476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,6 +199,33 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 916099338}
         m_MethodName: Die
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &552089955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3235548913554657093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed423c20b7ff5f04cb3a45fa4e43f909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 585b1bddbc52eb04d9770f860b0e7352, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 916099338}
+        m_MethodName: ResetPlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -343,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4026632541570915424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5184434743610534502}
@@ -15292,15 +15320,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d16221e794fe16e4e8994a7f8c770561, type: 3}
---- !u!198 &6986729291098549463 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 19849376, guid: d16221e794fe16e4e8994a7f8c770561,
-    type: 3}
-  m_PrefabInstance: {fileID: 6986729291078700151}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6986729291079186177 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 490358, guid: d16221e794fe16e4e8994a7f8c770561,
+    type: 3}
+  m_PrefabInstance: {fileID: 6986729291078700151}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6986729291098549463 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 19849376, guid: d16221e794fe16e4e8994a7f8c770561,
     type: 3}
   m_PrefabInstance: {fileID: 6986729291078700151}
   m_PrefabAsset: {fileID: 0}
